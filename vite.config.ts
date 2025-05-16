@@ -27,7 +27,8 @@ export default defineConfig({
         sourcemap: true,
         rollupOptions: {
             input: {
-                main: "server/maps/src/main.ts"
+                index: "./index.html",
+                ...getMapsScripts(maps),
             },
         },
     },
