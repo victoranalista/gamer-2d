@@ -30,6 +30,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "server/maps/src"
+    "src"
   ]
 }
